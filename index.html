@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="logo">
+          <img src="img/logo.png" alt="Logo" width="120px" height="120px" />
+        </div>
+        <nav>
+            <div class="menu">
+                <a href="#about-me">ABOUT</a>
+                <a href="#skills-block">SKILLS</a>
+                <a href="#services-block">SERVICES</a>
+                <a href="#project-block">PROJECTS</a>
+                <a href="#contact-block">CONTACT</a>
+            </div>
+        </nav>
+    </header>
+    <section id="hero">
+        <div id="heroContent">
+            <h1>Hello, I am<span class="zeleno"> Uros</span>!</h1>
+            <p>Web<span class="zeleno"> developer</span></p>
+            <a href="#contact-block"><button class="contact-btn">Contact me!</button></a>
+        </div>
+    </section>
+    <section id="about-me">
+        <div id="about-me-content">
+            <img src="img/myself.png" alt="myself-img" class="myself-img" />
+            <div class="about-me-text">
+                <h2>
+                    ABOUT<span class="zeleno"> ME</span>
+                </h2>
+                <p>
+                    I am <span class="zeleno">Uros</span>, and i create websites. <br />
+                    If you need website, you can call me.
+                </p>
+                <p class="podaci">
+                     <span class="zeleno">Full name:</span> Uros Vukotic
+                </p>
+                <p class="podaci">
+                    <span class="zeleno">Birth date: </span> 9.4.2004
+                </p>
+                <p class="podaci">
+                    <span class="zeleno">Location:</span> Belgrade
+                </p>
+                <p class="podaci">
+                    <span class="zeleno">Skills:</span> SQL, HTML, CSS
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="skills-block">
+        <h2>MY <span class="zeleno">SKILLS</span></h2>
+            <div class="skills" id="s80"><i class="zmdi zmdi-language-html5" id="ikonica"></i><p class="skills-text">HTML - 80/100</p></div>
+            <div class="skills" id="s70"><i class="zmdi zmdi-language-css3" id="ikonica"></i><p class="skills-text">CSS - 70/100</p></div>
+            <div class="skills" id="s90"><i class="zmdi zmdi-cloud" id="ikonica"></i><p class="skills-text">SQL - 90/100</p></div>
+            <div class="skills" id="s35"><i class="zmdi zmdi-language-javascript" id="ikonica"></i><p class="skills-text">JS - 35/100</p></div>
+        </section>
+    <section id="services-block">
+        <h2>SER<span class="zeleno">VICES</span></h2>
+        <div class="services-flex">
+            <div class="services">
+                <i class="zmdi zmdi-view-web" id="service-ikonica"></i>
+                <h3>Web development</h3>
+                <p class="services-text">A web developer is a programmer who develops World Wide Web applications using a client–server model. The applications typically use HTML, CSS, and JavaScript in the client, and any general-purpose programming language in the server.</p>
+            </div>
+            <div class="services">
+                <i class="zmdi zmdi-brush" id="service-ikonica"></i>
+                <h3>UI/UX Design</h3>
+                <p class="services-text">UI designers work on individual pages, buttons, and interactions; making sure they are polished and functional. UX designers take a more high-level view of a product or service, ensuring the collective user flow of a site, service, or app is fully realized and consistent.</p>
+            </div>
+            <div class="services">
+                <i class="zmdi zmdi-cloud" id="service-ikonica"></i>
+                <h3>Database</h3>
+                <p class="services-text">Database Management allows a person to organize, store, and retrieve data from a computer. Database Management can also describe the data storage, operations, and security practices of a database administrator (DBA) throughout the life cycle of the data.</p>
+            </div>
+        </div>
+    </section>
+    <section id="project-block">
+        <h2>PRO<span class="zeleno">JECTS</span></h2>
+        <div class="project-slike-red">
+            <div class="project-grupa">
+                <div class="project-slika">
+                    <img src="img/sajt1.png" alt="sajt-1" />
+                </div>
+                <div class="project-tekst">
+                    <p>HTML - <span class="zeleno">CSS</span> - JS</p>
+                </div>
+            </div>
+            <div class="project-grupa">
+                <div class="project-slika">
+                    <img src="img/sajt2.png" alt="sajt-2" />
+                    
+                </div>
+                <div class="project-tekst">
+                    <p>HTML - <span class="zeleno">CSS</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact-block">
+        <h2>CON<span class="zeleno">TACT</span></h2>
+        <div class="contact-forma">
+            <form action="#" method="post">
+                <label for="ime">Your name:</label>
+                <input
+                    type="text"
+                    id="ime"
+                    name="ime"
+                    required
+                    placeholder="Please enter your name..."
+                />
+  
+                <label for="email">Email address:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="Enter valid mail address..."
+                />
+  
+                <label for="naslov1">Subject:</label>
+                <input
+                    type="text"
+                    id="naslov1"
+                    name="naslov"
+                    required
+                    placeholder="Please enter subject of message..."
+                />
+                <label for="message">Message:</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    required
+                    placeholder="Type your message here..."
+                ></textarea>
+
+            <button type="submit">send message</button>
+        </form>
+        </div>
+    </section>
+    <footer>
+        
+        <a href="sitemap.xml"><i class="zmdi zmdi-map"></i></a>
+        <p>&copy; Uros Vukotic 2024.</p>
+        <a href="assets/responsive.css"><i class="zmdi zmdi-language-css3"></i></a>
+    </footer>
+</body>
+</html>
